@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1e21;
+    background: #eef1f5;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.page {
+    width: min(100%, 980px);
+    margin: 0 auto;
+    padding: 56px 20px 32px;
+}
+
+.brand {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.brand-mark {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 14px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 34px;
+    font-weight: 700;
+    background: #2f6fed;
+    color: #fff;
+}
+
+.brand h1 {
+    margin: 0 0 8px;
+    font-size: clamp(28px, 5vw, 40px);
+}
+
+.brand p {
+    margin: 0;
+    color: #606770;
+}
+
+.card {
+    width: min(100%, 430px);
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #d7dce3;
+    border-radius: 14px;
+    padding: 28px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+.notice {
+    display: grid;
+    gap: 6px;
+    padding: 14px;
+    margin-bottom: 22px;
+    border: 1px solid #cbd8ee;
+    border-radius: 10px;
+    background: #f5f8ff;
+    color: #23416f;
+    font-size: 13px;
+    line-height: 1.45;
+}
+
+.notice strong {
+    font-size: 12px;
+    letter-spacing: .08em;
+}
+
+h2 {
+    margin: 0 0 4px;
+    font-size: 25px;
+}
+
+.subtitle {
+    margin: 0 0 22px;
+    color: #606770;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+input {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid #ccd0d5;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2f6fed;
+    box-shadow: 0 0 0 3px rgba(47, 111, 237, 0.14);
+}
+
+button {
+    margin-top: 8px;
+    border: 0;
+    border-radius: 8px;
+    padding: 13px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #2f6fed;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(0.96);
+}
+
+.result {
+    display: none;
+    margin-top: 18px;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #d8dde5;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.result.visible {
+    display: block;
+}
+
+.security-check {
+    margin-top: 24px;
+    padding-top: 22px;
+    border-top: 1px solid #e4e6eb;
+}
+
+.security-check h3 {
+    margin: 0 0 10px;
+    font-size: 15px;
+}
+
+.security-check ul {
+    margin: 0;
+    padding-left: 18px;
+    color: #50555c;
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+footer {
+    padding-top: 24px;
+    text-align: center;
+    color: #606770;
+    font-size: 12px;
+}
